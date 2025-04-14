@@ -23,13 +23,13 @@ description: DeepChat 最初的一些想法和设计的记录。以及为什么�
 
 一开始我去研究了 Cline，毕竟这是当时能找得到开源的最接近 Cursor 的一个项目了。也试图自己瞎折腾写了一些 调用API 的 Task Loop，做了一些小玩具和实验，但总觉得不过瘾。
 
-当时我用的最多的 ChatBot 应用是 [OpenCat](https://opencat.app/zh-Hans/)，主要是可以很方便的分享给亲朋好友一起用，毕竟当时就我一个人有卡可以充 OpenAI 的 API。后来 DeepSeek 出来之后，好模型的 API 唾手可得，于是我也逐步迁移到了 Cherry Studio 上面去使用。我很喜欢 Cherry Studio ，开源，功能齐全，新特性支持速度极快。虽然时至今日我也在 X 上看到有对于 Cherry Studio 的复杂度讨论，但我个人还是觉得这是面向开发者最好用的一个工具，具备足够多的自由度，可以说是 ChatBot 的瑞士军刀。
+当时我用的最多的 ChatBot 应用是 [OpenCat](https://opencat.app/zh-Hans/)，主要是可以很方便的分享给亲朋好友一起用，毕竟当时就我一个人有卡可以充 OpenAI 的 API。后来 DeepSeek 出来之后，好模型的 API 唾手可得，于是我也逐步迁移到了 [Cherry Studio](https://cherry-ai.com/) 上面去使用。我很喜欢 Cherry Studio ，开源，功能齐全，新特性支持速度极快。虽然时至今日我也在 X 上看到有对于 Cherry Studio 的复杂度讨论，但我个人还是觉得这是面向开发者最好用的一个工具，具备足够多的自由度，可以说是 ChatBot 的瑞士军刀。
 
 那么，既然我自己都觉得 Cherry Studio 好用，为什么我又去做 DeepChat ，这不是互相矛盾了么。为啥不直接给 Cherry 提 PR 呢。
 
-这个就又要说回 Yak Shaving ，其实我一开始真的就是想去给 Cherry 提 PR 的，毕竟机缘巧合的我也写了好几年的 Electron 程序想着多少能做点啥。当时也是闲着无事，就去研读了 Cherry ， ChatMCP,Open WebUI 这几个 ChatBot 的代码，越看越有意思，自己心里也有了一些构思和想法，但人么就是懒，最后既没有开始自己写也没动力去给这几个项目提PR。
+这个就又要说回 Yak Shaving ，其实我一开始真的就是想去给 Cherry 提 PR 的，毕竟机缘巧合的我也写了好几年的 Electron 程序想着多少能做点啥。当时也是闲着无事，就去研读了 Cherry ，ChatMCP,Open WebUI 这几个 ChatBot 的代码，越看越有意思，自己心里也有了一些构思和想法，但人么就是懒，最后既没有开始自己写也没动力去给这几个项目提PR。
 
-刚好这时候遇到 [AstaXie](https://x.com/astaxie) 在做 ThinkInAI 社区，他需要一个社区版本的桌面 ChatBot。目前的几家开源的，要么协议上可能不合适，要么形态上可能不是想要的。那感情好，这不机会来了，二话不说我就一头轧入进去，开始了薅牦牛毛的过程。
+刚好这时候遇到 [AstaXie](https://x.com/astaxie) 在做 [ThinkInAI 社区](https://thinkinai.xyz/)，他需要一个社区版本的桌面 ChatBot。目前的几家开源的，要么协议上可能不合适，要么形态上可能不是想要的。那感情好，这不机会来了，二话不说我就一头轧入进去，开始了薅牦牛毛的过程。
 
 # Why Electron
 
