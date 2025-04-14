@@ -14,7 +14,6 @@
         >
       </div>
     </template>
-    <template #doc-after><Comment /></template>
   </Layout>
   <Copyright />
 </template>
