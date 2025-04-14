@@ -1,0 +1,20 @@
+{
+  "name": "notes.anya2a.com",
+  "version": "0.0.1",
+  "description": "notes.anya2a.com tech blog",
+  "keywords": [],
+  "author": "zerob13",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "globby": "^14.1.0",
+    "gray-matter": "^4.0.3",
+    "fs-extra": "^11.3.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev --host 0.0.0.0",
+    "build": "vitepress build ",
+    "preview": "vitepress preview "
+  }
+}
