@@ -12,7 +12,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   themeConfig: {
     posts: await getPosts(pageSize),
-    website: "https://github.com/airene/vitepress-blog-pure", //copyright link
+    website: "http://notes.anya2a.com/", //copyright link
     // 评论的仓库地址
     comment: {
       repo: "zerob13/notes.anya2a.com",
@@ -34,7 +34,8 @@ export default defineConfig({
       label: "文章摘要",
     },
     socialLinks: [
-      { icon: "github", link: "https://github.com/zerob13/notes.anya2a.com" },
+      { icon: "github", link: "https://github.com/zerob13" },
+      { icon: "x", link: "https://x.com/imwritingbugs" },
     ],
   } as any,
   srcExclude: ["README.md"], // exclude the README.md , needn't to compiler
