@@ -35,7 +35,7 @@ description: DeepChat 最初的一些想法和设计的记录。以及为什么�
 
 <del>当然因为我熟悉Electron</del>
 
-开个玩笑，实际上技术选型的时候，我们也激烈的讨论过，Electron，Tarui，Flutter Desktop,React Native，原生直接开发。其实 macOS 端的话，这几个方式多多少少我都写过一段时间，整体来说也各有各的问题。如果人力充沛精力无限，我肯定会选择纯原生去开发，因为体验和能力就会好非常多。但这不是能力有限也做不过来么，综合考虑第三方库最多相对项目稳定性和可靠性也比高的 Electron 就是我的第一选择了。
+开个玩笑，实际上技术选型的时候，我们也激烈的讨论过，Electron，Tarui，Flutter Desktop,React Native，原生直接开发。其实 macOS 端的话，这几个方式多多少少我都写过一段时间，整体来说也各有各的问题。如果人力充沛精力无限，我肯定会选择纯原生去开发，因为体验和能力就会好非常多。但这不是能力有限也做不过来么，综合考虑第三方库最多相对项目稳定性和可靠性也比较高的 Electron 就是我的第一选择了。
 
 其实作为 1Password 七八年的订阅用户，在他们切换 Electron 的时候我一直有在关注，当时很多[激烈讨论](https://www.reddit.com/r/1Password/comments/p2k261/electron_really/)，但最终 1Password 还是做的不错，这也是其中一个让我坚持继续用 Electron 的原因。
 
