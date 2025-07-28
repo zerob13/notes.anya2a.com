@@ -1,10 +1,12 @@
 import { defineConfig } from "vitepress";
 import { getPosts } from "./theme/serverUtils";
+import { withMermaid } from "vitepress-plugin-mermaid";
+
 
 //每页的文章数量
 const pageSize = 10;
 
-export default defineConfig({
+export default withMermaid({
   title: "Random Needles",
   base: "/",
   cacheDir: "./node_modules/vitepress_cache",
